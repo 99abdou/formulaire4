@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        
+            <div class="photo">
+                <h1 id="h2">REGISTER NOW</h1> 
+                <img src="/image1.jpg" alt="" class="img">
+            </div>
+        
+                
+           
+                        <form method="post" class="flex">
+                            <div class="parti-1">
+                                <label for="first name" class="name">FIRST NAME</label><br>
+                                <input type="text" name="first name" id="first-name" /><br>
+
+                                <label for="last name" class="name">LAST NAME</label>
+                                <input type="text" name="last name" id="last-name" required/> <!--<i class="fa-solid fa-circle-exclamation"></i> -->
+
+                                <label for="company" class="company">COMPANY</label><br>
+                                <input type="text" name="company" id="company" /><br>
+
+                                <label for="email" class="email">EMAIL</label><br>
+                                <input type="email" name="email" id="email" /><br>
+
+                                <label for="phone-number" class="numero">PHONE NUMBER</label><br>
+                                <input type="number" name="phone-number" id="phone-number" />
+
+                                <div class="mon-donal">
+                                    <label for="donnates" class="donnates1">. DONATES US</label>
+                                    <hr id="donnates">
+                                </div>
+                            </div>
+                            
+
+
+                            <div class="mon-parti">
+                                <label for="meal preference" class="meale">MEAL PREFERENCE</label><label for="mail" class="maile">linch detail</label><br>
+                                <input type="text" name="meal preference" id="meal preference" /><br>
+
+                                <label for="mode" class="mode">PAYEMENT MODE</label><label for="paye" class="payes">payement detail</label><br>
+
+                                <input type="radio" name="payement mode" class="demo" id="cash" />
+                                <label for="cash" id="cash">Cash</label>
+
+                                <input type="radio" name="payement mode" class="demo" id="cheque" />
+                                <label for="cheque" id="cheque">Cheque</label>
+
+                                <input type="radio" name="payement mode" class="demo" id="demand-draf" />
+                                <label for="demand-draf" id="demand-draf">Demand Draf</label><br>
+
+                                <label for="dd/cheque" class="dd">DD / CHEQUE NO.</label><br>
+                                <input type="text" name="dd/cheque" id="dd/cheque" /><br>
+
+                                <label for="drawn" class="bank">DRAWN ON (BANK NAME) </label><br>
+                                <input type="text" name="drawn" id="drawn" /><br>
+
+                                <label for="payable" class="pay">PAYABLE AT</label><br>
+                                <input type="text" name="payable" id="payable" /><br><br><br><br>
+
+                                <button>€500</button><hr id="donnates2"><br>
+                                
+                                <input type="submit" value="SUBMIT" id="submit">
+                                <input type="submit" value="RESET" id="reset"> 
+                        
+                            </div> 
+                        </form>
+                    
+            </div>
+    </div>
+    
+</body>
+</html>

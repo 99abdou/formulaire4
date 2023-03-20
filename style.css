@@ -1,0 +1,330 @@
+*{
+    box-sizing: border-box;
+} 
+
+body{
+    /* background-color: #FFF; */
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* height: 100vh; */
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.container{
+    margin-top: 3%;
+    width: 95%;
+    height: 10%;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+
+}
+
+:required{
+    border-color: red;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    justify-content: center; 
+}
+
+
+
+.photo{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(91, 14, 103); */
+    position: relative; 
+}
+
+.photo h1{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: #866161;
+}
+img{
+    width: 100%;
+    height: 150%;
+    opacity: 0.4;
+ 
+}
+/*
+.parti-1 i{
+    left: 80%;
+    bottom: 81%;
+    color: red;
+    font-size: 20px;
+
+}*/
+
+
+.parti-1{
+    margin-top: 15%;
+    width: 55%;
+    height: 100%;
+    padding: 3%;
+   
+}
+
+.mon-parti{
+    width: 50%;
+    height: 100%;;
+    margin-top: 23%;
+    
+    margin-left: 0;
+    /* background-color: blue;*/
+}
+
+ #cash, #cheque, #demand-draf{ 
+   width: 20px;
+   padding-right: 5px;
+   padding-left: 1px; 
+   font-size: 15px;
+   font-weight: bold;
+   /* height: 40px;*/
+   padding-top: 5px;
+   padding-bottom: 10px;
+   margin-bottom: 5%; 
+}
+
+.parti-1 input{
+    width: 400px;
+    height: 45px;
+    margin-bottom: 5%;
+    border-radius: 5px 5px 5px 5px;
+    /* padding: 5px; */
+}
+
+
+.mon-parti input{
+    margin-bottom: 5%;
+    width: 400px;
+    height: 45px;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+.name {
+    margin-right: 30%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.company{
+    margin-right: 30%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.email{
+    margin-right: 300%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.numero{
+    margin-right: 30%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.pay{
+    margin-right: 30%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.dd{
+    margin-right: 50%;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.bank{
+    width: 50%;
+    margin-right: 50%;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.maile{
+    float: right;
+    font-size: 10px;
+    padding-right: 15%;
+    text-decoration: underline;
+} */
+
+.payes{
+    float: right;
+    font-size: 10px;
+    text-decoration: underline;
+    padding-left: 15%; 
+} 
+
+/*
+.meale{
+    padding-left: 10%;
+    float: left;
+    font-weight: bold;
+    font-size: 16.6px;
+    margin-top: 5%;
+}
+
+.mode{
+    padding-left: 10%;
+    float: left;
+    font-weight: bold;
+    font-size: 16.6px;
+    margin-top: 5%;
+}
+
+#name{
+    border-color: aqua;
+}
+
+#last-name::before{
+    border-color: red;
+}
+
+ #first-name, #last-name, #company, #email, #phone-number {
+    margin-left: 10%;
+} 
+
+#meal-preference{
+    margin-top: 50px;
+}
+
+#cheque-dd{
+    margin-left: 5%;
+}
+
+#Pey{
+    margin-right: 1px;
+    margin-left: 9%;
+}
+#bank{
+    margin-left: 10%;
+}
+
+#mail{
+    margin-left: 10%;
+}
+
+label{
+    display: inline-block;
+    width: 50%;
+    padding: 15px;
+}
+*/
+
+#donnates{
+    border: none;
+    border-top-style: groove ;
+    border-color: rgb(12, 171, 118);
+    margin-left: 5%;
+    width: 85%;
+}
+
+.donnates1{
+    margin-right: 10%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.donal{
+    margin-top: 5%;
+    width: 100%; 
+}
+
+.mon-donal{
+  
+    margin-top: 15%;
+}
+
+.donateus{
+    display: inline;
+    top: 21%;
+}
+#donnates2{
+   width: 87%;
+   margin-top: 6.1%;
+   margin-right: 15%;
+   /*margin-left: 55%; */
+   border: none;
+   border-top: 2px solid black;
+} 
+
+.money{
+    margin-top: 30%;
+    margin-bottom: 20%;
+    float: right;
+    font-size: 15px;
+    width: 5%;
+    color: #FFF;
+    font-weight: bold;
+    background-color: rgb(12, 171, 118);
+}
+
+#submit{
+    padding: 5px;
+    padding-bottom: 7%;
+    padding-top: 3%;
+    font-size: 18px;
+    color: #FFF;
+    background-color: rgb(12, 171, 118);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border-color: aqua;
+    box-shadow: 4px; 
+    width: 30%;
+    margin-top: 5px;
+  
+}
+
+#reset{
+    padding: 5px;
+    padding-bottom: 7%;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-size: 18px;
+    color: aqua;
+    background-color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 30%;
+    border-color: aqua;
+    margin-top:0;
+    margin-left: 10%;
+}
+
+ button{
+    padding: 5PX 3%;
+    border: 1px solid black;
+    position: absolute;
+    left: 48%;
+    top: 74%;
+    color: #FFF;
+    background-color: rgb(12, 171, 118);
+} 
+
+/*
+@media (max-width:767px) {
+    .flex{
+        display: block;
+    }
+    .phone .image{
+        width: 100%;
+    }   
+} */
